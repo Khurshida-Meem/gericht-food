@@ -7,7 +7,7 @@
   padding: 0;
 }
 
-body{
+body {
   background-color: #040404;
   color: #fff;
 }
@@ -19,18 +19,25 @@ h4,
 h5,
 h6 {
   font-family: 'Cormorant Upright', serif;
-  font-family: 'Open Sans', sans-serif;
   color: #DCCA87;
-  
+
 }
 
-p{
+p {
   font-family: 'Open Sans', sans-serif;
   color: #AAAAAA;
 }
 
-li{
+li {
   font-family: 'Open Sans', sans-serif;
+}
+
+.text-white {
+  color: #fff;
+}
+
+.section-divider {
+  margin-top: 20px;
 }
 
 .container {
@@ -38,21 +45,58 @@ li{
   margin: auto;
 }
 
-.flex{
+.flex {
   display: flex;
   align-items: center;
 }
 
-.justify-center{
+.justify-center {
   justify-content: center;
 }
 
-.justify-between{
+.justify-between {
   justify-content: space-between;
 }
 
-.btn-primary{
+.btn-primary {
+  font-family: 'Cormorant Upright', serif;
+  font-size: 16px;
+  line-height: 28px;
+  font-weight: 700;
   background-color: #DCCA87;
   color: #0C0B08;
-  padding: 1rem 4rem;
+  padding: 0.5rem 2rem;
+  border: 0;
+  border-radius: 5px;
+}
+
+.margin-auto {
+  margin: 0 auto;
+}
+
+.grid {
+  display: grid;
+}
+
+.grid-column-2 {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.heading{
+  font-weight: 700;
+  font-size: 23px;
+  line-height: 30px;
+}
+
+.highlight {
+  position: relative;
+}
+
+.highlight::after {
+  content: url("./assets/spoon.png");
+  width: 50%;
+  position: absolute;
+  left: 0;
+  top: 80%;
+  z-index: -1;
 }
