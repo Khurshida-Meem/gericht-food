@@ -4,7 +4,7 @@ import banner from '../../../assets/welcome.png'
 
 const Banner = () => {
     return (
-        <section className='section-divider'>
+        <section className='container section-width flex'>
             <div className='grid grid-column-2'>
                 <div className='flex justify-center'>
                     <div>
@@ -17,7 +17,7 @@ Condimentum volutpat morbi facilisis quam scelerisque <br />
                     </div>
                 </div>
                 <div>
-                    <img src={banner} alt="" width='75%' />
+                    <img src={banner} alt="" width='80%' />
                 </div>
             </div>
 

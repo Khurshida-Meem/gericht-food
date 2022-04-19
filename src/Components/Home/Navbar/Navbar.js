@@ -6,7 +6,7 @@ const Navbar = () => {
     return (
         <nav className='container flex justify-between'>
             <div>
-                <img src={logo} className='left-0' alt="Gericht" width='200px' height='58px' />
+                <img src={logo} alt="Gericht" width='200px' height='58px' />
             </div>
             <div>
                 <ul class="nav__menu flex">

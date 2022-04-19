@@ -37,7 +37,7 @@ li {
 }
 
 .section-divider {
-  margin-top: 20px;
+  margin-top: 50px;
 }
 
 .container {
@@ -99,4 +99,8 @@ li {
   left: 0;
   top: 80%;
   z-index: -1;
+}
+
+.section-width{
+  height: 100vh;
 }
