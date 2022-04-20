@@ -4,6 +4,7 @@ import About from './Components/Home/About/About';
 import Awards from './Components/Home/Awards/Awards';
 import Banner from './Components/Home/Banner/Banner';
 import ChefsWord from './Components/Home/ChefsWord/ChefsWord';
+import Instagram from './Components/Home/Instagram/Instagram';
 import Menu from './Components/Home/Menu/Menu';
 import Navbar from './Components/Home/Navbar/Navbar';
 
@@ -19,6 +20,7 @@ function App() {
         <img src={video} alt="" width='100%' />
       </div>
       <Awards />
+      <Instagram />
     </div>
   );
 }

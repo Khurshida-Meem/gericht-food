@@ -79,6 +79,17 @@ li {
   border-radius: 5px;
 }
 
+.btn-small {
+  font-family: 'Cormorant Upright', serif;
+  line-height: 28px;
+  font-weight: 700;
+  background-color: #DCCA87;
+  color: #0C0B08;
+  padding: 0 1rem;
+  border: 0;
+  border-radius: 5px;
+}
+
 .margin-auto {
   margin: 0 auto;
 }
