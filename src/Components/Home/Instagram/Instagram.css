@@ -10,3 +10,37 @@
     margin: 0 5px;
     border-radius: 10px;
 }
+
+.img-1{
+    background: url('../../../assets/gallery01.png');
+    margin-right: 10px;
+}
+.img-2{
+    background: url('../../../assets/gallery02.png');
+    margin-right: 10px;
+}
+.img-3{
+    background: url('../../../assets/gallery03.png');
+    margin-right: 10px;
+}
+.img-4{
+    background: url('../../../assets/gallery04.png');
+}
+
+.background{
+    height: 280px;
+    width: 188px;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.overlay{
+    display: none;
+    transition: ease-in-out 5s;
+}
+
+.background:hover .overlay{
+    background: rgba(0, 0, 0, 0.64);
+    height: 100%;
+    display: block;
+}

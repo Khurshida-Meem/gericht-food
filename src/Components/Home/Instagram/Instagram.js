@@ -1,9 +1,5 @@
 import React from 'react';
 import './Instagram.css'
-import img1 from '../../../assets/gallery01.png'
-import img2 from '../../../assets/gallery02.png'
-import img3 from '../../../assets/gallery03.png'
-import img4 from '../../../assets/gallery04.png'
 
 const Instagram = () => {
     return (
@@ -19,18 +15,39 @@ const Instagram = () => {
                         <button style={{ marginTop: '20px' }} className='btn-small'>View More</button>
                     </div>
                     <div className='flex'>
-                        <div className='overlay'>
-                            <img src={img1} className='img-margin' alt="" height='280px' />
+                        <div className='background img-1'>
+                            <div className='overlay'>
+                                <div className='text-center'>
+                                    <p style={{ fontSize: '40px', paddingTop: '55%' }}><i className="fa fa-instagram" aria-hidden="true"></i></p>
+                                </div>
+
+                            </div>
                         </div>
-                        <div className='overlay'>
-                            <img src={img2} className='img-margin' alt="" height='280px' />
+                        <div className='background img-2'>
+                            <div className='overlay'>
+                                <div className='text-center'>
+                                    <p style={{ fontSize: '40px', paddingTop: '55%' }}><i className="fa fa-instagram" aria-hidden="true"></i></p>
+                                </div>
+
+                            </div>
                         </div>
-                        <div className='overlay'>
-                            <img src={img3} className='img-margin' alt="" height='280px' />
+                        <div className='background img-3'>
+                            <div className='overlay'>
+                                <div className='text-center'>
+                                    <p style={{ fontSize: '40px', paddingTop: '55%' }}><i className="fa fa-instagram" aria-hidden="true"></i></p>
+                                </div>
+
+                            </div>
                         </div>
-                        <div className='overlay'>
-                            <img src={img4} className='img-margin' alt="" height='280px' />
+                        <div className='background img-4'>
+                            <div className='overlay'>
+                                <div className='text-center'>
+                                    <p style={{ fontSize: '40px', paddingTop: '55%' }}><i className="fa fa-instagram" aria-hidden="true"></i></p>
+                                </div>
+
+                            </div>
                         </div>
+                        
                     </div>
                 </div>
             </div>
