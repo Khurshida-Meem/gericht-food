@@ -23,9 +23,14 @@ h6 {
 
 }
 
-p {
+p,small {
   font-family: 'Open Sans', sans-serif;
   color: #AAAAAA;
+}
+
+.open-sans{
+  font-family: 'Open Sans', sans-serif;
+  color: #fff;
 }
 
 li {
@@ -58,6 +63,10 @@ li {
   justify-content: space-between;
 }
 
+.justify-end{
+  justify-content: end;
+}
+
 .btn-primary {
   font-family: 'Cormorant Upright', serif;
   font-size: 16px;
@@ -81,11 +90,20 @@ li {
 .grid-column-2 {
   grid-template-columns: repeat(2, 1fr);
 }
+.grid-column-3 {
+  grid-template-columns: repeat(3, 1fr);
+}
 
 .heading{
   font-weight: 700;
   font-size: 23px;
   line-height: 30px;
+}
+
+.small-heading{
+  font-size: 64px;
+    font-weight: 600;
+    line-height: 83px;
 }
 
 .highlight {
@@ -103,4 +121,25 @@ li {
 
 .section-width{
   height: 100vh;
+}
+
+.text-center{
+  text-align: center;
+}
+
+.text-left{
+  text-align: left;
+}
+
+.text-right{
+  text-align: right;
+}
+
+.img-bg{
+  background-image: url('./assets/bg.png');
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
+  width: 100%;
+  margin-top: 4rem;
 }

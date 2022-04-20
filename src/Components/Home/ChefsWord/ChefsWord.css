@@ -1,0 +1,12 @@
+.highlight-chef {
+    position: relative;
+}
+
+.highlight-chef::after {
+    content: url("../../../assets/spoon.png");
+    width: 50%;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    z-index: 1;
+}
