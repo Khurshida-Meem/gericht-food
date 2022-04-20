@@ -15,7 +15,7 @@ const Footer = () => {
                     <h1 className='footer-logo'>GERICHT</h1>
                     <p className='text-white mt-3'><small> "The best way to find yourself is to lose yourself in the <br />
                         service of others."</small></p>
-                    <p className='mt-2'><i class="fa fa-facebook" aria-hidden="true"></i> <i class="fa fa-twitter" aria-hidden="true"></i> <i class="fa fa-instagram" aria-hidden="true"></i></p>
+                    <p className='mt-2'><i className="fa fa-facebook" aria-hidden="true"></i> <i className="fa fa-twitter" aria-hidden="true"></i> <i className="fa fa-instagram" aria-hidden="true"></i></p>
                 </div>
                 <div className='text-center'>
                     <h1>Working Hours</h1>

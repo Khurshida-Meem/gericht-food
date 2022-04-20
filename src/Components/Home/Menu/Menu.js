@@ -9,7 +9,7 @@ const Menu = () => {
                 <div>
                     <div className='text-center'>
                         <h4 className='text-white heading'>Menu That <span className='highlight'>Fits</span> Your Palatte</h4>
-                        <h1 className='small-heading'>Today's Special</h1>
+                        <h1 className='small-heading mt-1'>Today's Special</h1>
                     </div>
                 </div>
                 <div className='grid grid-column-3 section-divider'>

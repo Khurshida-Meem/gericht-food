@@ -5,16 +5,19 @@ import award2 from '../../../assets/award02.png'
 import award3 from '../../../assets/award03.png'
 import award4 from '../../../assets/award05.png'
 import laurels from '../../../assets/laurels.png'
+import logo from '../../../assets/logo.png'
 
 const Awards = () => {
     return (
         <section className='img-bg '>
-            <div style={{ paddingTop: '5%' }} className='container grid grid-column-2'>
+            <div className='container'>  
+                <img className='award-logo' src={logo} alt="" />
+            <div className='grid grid-column-2'>
                 <div className='flex'>
-                    <div>
+                    <div style={{paddingLeft: '10%'}}>
                         <div>
                             <h4 className='text-white heading'><span className='highlight-chef'>Awards</span> Awards & recognition</h4>
-                            <h1 className='banner-header'>Our Laurels</h1>
+                            <h1 className='award-heading'>Our Laurels</h1>
                         </div>
                         <div>
                             <div className='grid grid-column-2 section-divider'>
@@ -53,10 +56,10 @@ const Awards = () => {
                     </div>
                 </div>
                 <div className='flex justify-center'>
-                    <img src={laurels} alt="" width='70%' />
+                    <img src={laurels} alt="" width='60%' />
                 </div>
             </div>
-
+</div>
         </section>
     );
 };

@@ -9,19 +9,19 @@ const Navbar = () => {
                 <img src={logo} alt="Gericht" width='200px' height='58px' />
             </div>
             <div>
-                <ul class="nav__menu flex">
-                    <li class="nav__item">Home</li>
-                    <li class="nav__item">Pages</li>
-                    <li class="nav__item">Contact Us</li>
-                    <li class="nav__item">Blog</li>
-                    <li class="nav__item">Landing</li>
-                </ul>
-            </div>
-            <div className='flex'>
-                <p style={{marginRight: '3rem'}}>Log in/ Registration</p>
-                <p>Book Table</p>
-            </div>
-        </nav>
+                <ul className="nav__menu flex">
+                    <li className="nav__item">Home</li>
+                    <li className="nav__item">Pages</li>
+                    <li className="nav__item" > Contact Us</li >
+        <li className="nav__item" > Blog</li >
+            <li className="nav__item" > Landing</li >
+                </ul >
+            </div >
+    <div className='flex'>
+        <p style={{ marginRight: '3rem' }}>Log in/ Registration</p>
+        <p>Book Table</p>
+    </div>
+        </nav >
     );
 };
 
