@@ -1,0 +1,28 @@
+.form-input {
+    background-color: #040404;
+    outline: none;
+    border: 1px solid #DCCA87;
+    padding: 1rem 0.5rem;
+    margin-right: 1.5rem;
+    width: 25%;
+}
+
+.highlight-newspaper {
+    position: relative;
+}
+
+.highlight-newspaper::after {
+    content: url("../../../assets/spoon.png");
+    width: 50%;
+    position: absolute;
+    left: 25%;
+    top: 80%;
+    z-index: -1;
+}
+
+.newsletter-container{
+    border: 1px solid #DCCA87;
+    border-top: 0;
+    width: 60%;
+    padding: 3% 0;
+}

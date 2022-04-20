@@ -66,6 +66,9 @@ li {
 .justify-end{
   justify-content: end;
 }
+.justify-evenly{
+  justify-content: space-evenly;
+}
 
 .btn-primary {
   font-family: 'Cormorant Upright', serif;

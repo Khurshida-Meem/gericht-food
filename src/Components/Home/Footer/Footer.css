@@ -1,0 +1,13 @@
+.footer{
+    margin-top: 0;
+}
+
+.footer-logo{
+    font-size: 32px;
+}
+
+.copyright{
+    position: relative;
+    top: 30%;
+    left: 3%;
+}
