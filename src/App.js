@@ -4,6 +4,7 @@ import About from './Components/Home/About/About';
 import Awards from './Components/Home/Awards/Awards';
 import Banner from './Components/Home/Banner/Banner';
 import ChefsWord from './Components/Home/ChefsWord/ChefsWord';
+import Contact from './Components/Home/Contact/Contact';
 import Instagram from './Components/Home/Instagram/Instagram';
 import Menu from './Components/Home/Menu/Menu';
 import Navbar from './Components/Home/Navbar/Navbar';
@@ -21,6 +22,7 @@ function App() {
       </div>
       <Awards />
       <Instagram />
+      <Contact />
     </div>
   );
 }
