@@ -13,7 +13,7 @@ const Menu = () => {
                     </div>
                 </div>
                 <div className='grid grid-column-3 section-divider'>
-                    <div className='flex justify-center'>
+                    <div className='flex justify-center mx'>
                         <div>
                             <h2 className='text-white meal-header text-center'>Wine & Beer</h2>
                             <div className='meals'>
@@ -39,10 +39,10 @@ const Menu = () => {
                         </div>
                     </div>
 
-                    <div>
+                    <div className='menu-img'>
                         <img src={menu} alt="" width='80%' />
                     </div>
-                    <div className='flex justify-center'>
+                    <div className='flex justify-center mx'>
                         <div>
                             <h2 className='text-white meal-header text-center'>Cocktails</h2>
                             <div className='meals'>

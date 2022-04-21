@@ -9,3 +9,9 @@
     line-height: 28px;
     letter-spacing: 4%;
 }
+
+@media screen and (max-width: 768px) {
+    .banner-content{
+        margin-top: 40px;
+    }
+}

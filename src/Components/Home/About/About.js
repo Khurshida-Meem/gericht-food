@@ -14,10 +14,10 @@ const About = () => {
                             odio nec aliquet eu proin mauris et.</p>
                         <button style={{ marginTop: '20px' }} className='btn-primary'>Know More</button>
                     </div>
-                    <div style={{ textAlign: 'center' }}>
-                        <img src={knife} alt="" width='40%' />
+                    <div className='knife-container' style={{ textAlign: 'center' }}>
+                        <img className='knife' src={knife} alt="" width='40%' />
                     </div>
-                    <div>
+                    <div className='history-container'>
                         <h1 className='small-heading'><span className='highlight-history'>Our</span> History</h1>
                         <p style={{marginTop: '30px'}}>Adipiscing tempus ullamcorper lobortis odio tellus arcu volutpat. <br />
                             Risus placerat morbi volutpat habitasse interdum mi aliquam In <br />

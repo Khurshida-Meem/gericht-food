@@ -48,3 +48,30 @@
   top: 30%;
   z-index: 1;
 }
+
+@media screen and (max-width: 768px) {
+  
+  .g-bg{
+    height: 0;
+  }
+
+  .about-container{
+    text-align: left;
+    margin: 0 25px;
+  }
+
+  .knife-container{
+    /* height: 0; */
+    display: none;
+  }
+
+  /* .knife{
+    transform: rotate(90deg);
+    width: 30%;
+    margin-top: 50px;
+  } */
+
+  .history-container{
+    margin: 20px 25px;
+  }
+}

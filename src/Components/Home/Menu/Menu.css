@@ -5,3 +5,10 @@
 .meals{
     margin-top: 30px;
 }
+
+@media screen and (max-width: 768px) {
+    .menu-img{
+        width: 50%;
+        margin: 20px auto;
+    }
+}
