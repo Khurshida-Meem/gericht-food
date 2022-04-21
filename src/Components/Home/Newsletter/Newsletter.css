@@ -5,6 +5,8 @@
     padding: 1rem 0.5rem;
     margin-right: 1.5rem;
     width: 50%;
+    caret-color: white;
+    color: white;
 }
 
 .highlight-newspaper {
