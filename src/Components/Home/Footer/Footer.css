@@ -1,14 +1,22 @@
-.footer{
+.footer {
     margin-top: 0;
 }
 
-.footer-logo{
+.footer-logo {
     font-size: 32px;
 }
 
-.copyright{
+.copyright {
     position: relative;
     top: 30%;
     left: 26%;
     width: 50%;
+}
+
+
+
+@media screen and (max-width: 980px) {
+    .footer-column {
+        margin-top: 20px;
+    }
 }

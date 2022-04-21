@@ -7,3 +7,12 @@
     font-size: 46px;
     margin-top: 20px;
 }
+
+@media screen and (max-width: 980px) {
+    .award-img{
+        width: 40%;
+        margin-top: 20px;
+        
+    }
+
+}

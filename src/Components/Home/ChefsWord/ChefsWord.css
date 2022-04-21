@@ -10,3 +10,9 @@
     top: 100%;
     z-index: 1;
 }
+
+@media screen and (max-width: 980px) {
+    .video-img{
+        margin-top: 40vh;
+    }
+}

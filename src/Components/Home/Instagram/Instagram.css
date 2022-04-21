@@ -44,3 +44,9 @@
     height: 100%;
     display: block;
 }
+
+@media screen and (max-width: 980px) {
+    .background{
+        margin-top: 20px;
+    }
+}

@@ -5,7 +5,7 @@ import find from '../../../assets/findus.png'
 const Contact = () => {
     return (
         <section className='img-bg section-divider'>
-            <div style={{ paddingTop: '5%' }} className='container'>
+            <div style={{ paddingTop: '5%' }} className='container mx'>
                 <div className='grid grid-column-2'>
                     <div className='flex justify-center'>
                         <div>
@@ -20,8 +20,8 @@ const Contact = () => {
                         </div>
 
                     </div>
-                    <div>
-                        <img src={find} alt="" width='75%' />
+                    <div className='flex justify-center'>
+                        <img className='contact-img' src={find} alt="" width='75%' />
                     </div>
                 </div>
             </div>

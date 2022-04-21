@@ -26,3 +26,10 @@
     width: 75%;
     padding: 3% 0;
 }
+
+@media screen and (max-width: 980px) {
+    .form-input{
+        width: 70%;
+        margin-bottom: 10px;
+    }
+}

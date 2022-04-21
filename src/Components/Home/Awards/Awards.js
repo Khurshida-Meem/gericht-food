@@ -20,7 +20,7 @@ const Awards = () => {
                             <h1 className='award-heading'>Our Laurels</h1>
                         </div>
                         <div>
-                            <div className='grid grid-column-2 section-divider'>
+                            <div className='grid grid-column-sm2 section-divider'>
                                 <div className='flex'>
                                     <img src={award2} alt="" width='20%' />
                                     <div style={{ marginLeft: '1rem' }}>
@@ -28,7 +28,7 @@ const Awards = () => {
                                         <small>Lorem ipsum dolor sit amet, consectetur.</small>
                                     </div>
                                 </div>
-                                <div className='flex'>
+                                <div className='flex even-award'>
                                     <img src={award1} alt="" width='20%' />
                                     <div style={{ marginLeft: '1rem' }}>
                                         <h3>Rising Star</h3>
@@ -36,7 +36,7 @@ const Awards = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div className='grid grid-column-2 section-divider'>
+                            <div className='grid grid-column-sm2 section-divider'>
                                 <div className='flex'>
                                     <img src={award4} alt="" width='20%' />
                                     <div style={{ marginLeft: '1rem' }}>
@@ -44,7 +44,7 @@ const Awards = () => {
                                         <small>Lorem ipsum dolor sit amet, consectetur.</small>
                                     </div>
                                 </div>
-                                <div className='flex'>
+                                <div className='flex even-award'>
                                     <img src={award3} alt="" width='20%' />
                                     <div style={{ marginLeft: '1rem' }}>
                                         <h3>Outstanding Chef</h3>
@@ -56,7 +56,7 @@ const Awards = () => {
                     </div>
                 </div>
                 <div className='flex justify-center'>
-                    <img src={laurels} alt="" width='60%' />
+                    <img className=' award-img' src={laurels} alt="" width='60%' />
                 </div>
             </div>
 </div>

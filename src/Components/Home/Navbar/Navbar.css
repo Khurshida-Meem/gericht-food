@@ -39,11 +39,7 @@
     margin-left: 6rem;
 }
 
-@media screen and (max-width: 768px) {
-
-    .logo{
-        margin-left: 25px;
-    }
+@media screen and (max-width: 980px) {
     
     .menu-btn{
         display: block;

@@ -1,5 +1,4 @@
 import './App.css';
-import video from './assets/Video.png'
 import About from './Components/Home/About/About';
 import Awards from './Components/Home/Awards/Awards';
 import Banner from './Components/Home/Banner/Banner';
@@ -19,9 +18,6 @@ function App() {
       <About />
       <Menu />
       <ChefsWord />
-      <div>
-        <img src={video} alt="" width='100%' />
-      </div>
       <Awards />
       <Instagram />
       <Contact />
