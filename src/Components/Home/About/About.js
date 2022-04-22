@@ -6,6 +6,7 @@ const About = () => {
     return (
         <section className='img-bg'>
             <div className='container flex'>
+                <div style={{padding: '10% 0'}}>
                 <div className='flex g-bg'>
                     <div className='about-container'>
                         <h1 className='small-heading'>About <span className='highlight-about'>Us</span></h1>
@@ -24,7 +25,8 @@ const About = () => {
                             sed odio nec aliquet.</p>
                         <button style={{ marginTop: '20px' }} className='btn-primary'>Know More</button>
                     </div>
-                </div>
+                    </div>
+                    </div>
             </div>
 
         </section>

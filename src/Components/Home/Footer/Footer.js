@@ -3,7 +3,7 @@ import './Footer.css'
 
 const Footer = () => {
     return (
-        <section className='img-bg footer'>
+        <section className='footer-bg footer section-width'>
             <div style={{paddingTop: '10%'}} className='container flex justify-evenly'>
                 <div className='text-center footer-column'>
                     <h1>Contact Us</h1>

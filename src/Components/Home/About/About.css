@@ -61,17 +61,16 @@
   }
 
   .knife-container{
-    /* height: 0; */
-    display: none;
+    height: 200px;
   }
 
-  /* .knife{
+  .knife{
     transform: rotate(90deg);
-    width: 30%;
-    margin-top: 50px;
-  } */
+    width: 25%;
+    height: auto;
+  }
 
   .history-container{
-    margin: 20px 25px;
+    margin: 0 25px;
   }
 }
