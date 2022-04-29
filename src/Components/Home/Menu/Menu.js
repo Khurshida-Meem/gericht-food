@@ -5,7 +5,7 @@ import menu from '../../../assets/menu.png'
 const Menu = () => {
     return (
         <section className='container'>
-            <div className='section-divider'>
+            <div>
                 <div>
                     <div className='text-center'>
                         <h4 className='text-white heading'>Menu That <span className='highlight'>Fits</span> Your Palatte</h4>

@@ -5,7 +5,7 @@ import knife from '../../../assets/knife.png'
 const About = () => {
     return (
         <section className='img-bg'>
-            <div className='container flex'>
+            <div className='container  flex justify-center'>
                 <div style={{padding: '10% 0'}}>
                 <div className='flex g-bg'>
                     <div className='about-container'>

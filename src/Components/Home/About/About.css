@@ -1,4 +1,4 @@
-.g-bg{
+ .g-bg{
     background-image: url('../../../assets/G.png');
     background-repeat: no-repeat;
     background-size: 30%;
@@ -50,27 +50,13 @@
 }
 
 @media screen and (max-width: 980px) {
-  
-  .g-bg{
-    height: 0;
-  }
 
   .about-container{
     text-align: left;
     margin: 0 25px;
   }
 
-  .knife-container{
-    height: 200px;
-  }
-
-  .knife{
-    transform: rotate(90deg);
-    width: 25%;
-    height: auto;
-  }
-
   .history-container{
     margin: 0 25px;
   }
-}
+} 
